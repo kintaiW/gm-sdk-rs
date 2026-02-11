@@ -302,10 +302,10 @@ assert_eq!(decrypted, plaintext);
 
 ### 8.1 测试环境
 
-- **CPU**：Intel Core i7-8700K 3.7GHz
-- **内存**：16GB DDR4
-- **操作系统**：Ubuntu 22.04 LTS
-- **Rust 版本**：1.75.0
+- **CPU**：AMD Ryzen AI 7 H 350 w/ Radeon 860M
+- **内存**：15GB
+- **操作系统**：Ubuntu 20.04.6 LTS
+- **Rust 版本**：1.92.0 (ded5c06cf 2025-12-08)
 - **编译模式**：Release 模式
 
 ### 8.2 性能测试结果
