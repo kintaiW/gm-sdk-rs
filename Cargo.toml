@@ -1,0 +1,28 @@
+[package]
+name = "gm-sdk-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "gm_sdk"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sm2_demo"
+path = "src/bin/sm2_demo.rs"
+
+[[bin]]
+name = "sm4_demo"
+path = "src/bin/sm4_demo.rs"
+
+[[bin]]
+name = "hmac_sm3_demo"
+path = "src/bin/hmac_sm3_demo.rs"
+
+[dependencies]
+rand = "0.8.5"
+crypto-bigint = "0.6.0"
+elliptic-curve = "0.14.0-rc.28"
+sm2 = "0.14.0-rc.7"
+sm3 = "0.3.0"
+sm4 = "0.2.0"
